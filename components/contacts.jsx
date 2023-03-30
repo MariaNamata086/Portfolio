@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { TfiLinkedin,} from "react-icons/tfi";
 import { BsGithub,BsFillPersonPlusFill,BsTwitter} from "react-icons/bs";
-import typingImg from '../public/typing1.jpg'
+import typingImg from '/../public/typing1.jpg'
 
 const Contacts = () => {
   return (
