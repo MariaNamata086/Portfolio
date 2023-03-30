@@ -8,9 +8,9 @@ import Link from 'next/link'
 const Main = () => {
   return (
     <>    
-    <div id='main' className=' flex w-full h-screen text-center pt-30 md:mb-[590px] mb-[1700px] sm:mb-[940px]'>
+    <div id='main' className=' flex w-full h-screen text-center pt-30 md:mb-[590px] mb-[1500px] sm:mb-[940px]'>
         <div className=' flex flex-col max-w-[1240px] w-full h-auto mx-auto p-2 gap-6  justify-center items-center'>
-          <div className='flex left-[50%] rounded-full w-[400px] h-[400px] mt-[1800px] sm:mt-[1080px] md:mt-[720px]'>            
+          <div className='flex left-[50%] rounded-full w-[400px] h-[400px] mt-[1650px] sm:mt-[1080px] md:mt-[720px]'>            
             <Image priority src={profileImg} alt='profilePhoto' className='rounded-full'/>
           </div>
             <div>
