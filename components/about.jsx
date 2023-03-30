@@ -12,7 +12,7 @@ const About = () => {
              </p>
         </div>
         <div className='flex bg-none mt-2 md:w-2/5 max-w-[500px] ml-2 shadow-lg shadow-gray-500'>
-            <Image priority src = '/../public/skills/typingHTMl.jpg' height={400} width={500} alt = 'coding-image' className='object-cover rounded-tl-3xl rounded-br-3xl'/>
+            <Image priority src = '/skills/typingHTMl.jpg' height={400} width={500} alt = 'coding-image' className='object-cover rounded-tl-3xl rounded-br-3xl'/>
            
         </div>
      </div>
