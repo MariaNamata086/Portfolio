@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import typingImg from '../public/skills/typing1.jpg'
 const About = () => {
   return (
     <div id='about' className='w-full md:h-full p-2 items-center justify-items-start  py-16'>
@@ -12,7 +13,7 @@ const About = () => {
              </p>
         </div>
         <div className='flex bg-none mt-2 md:w-2/5 max-w-[500px] ml-2 shadow-lg shadow-gray-500'>
-            <Image priority src = '/skills/typingHTMl.jpg' height={400} width={500} alt = 'coding-image' className='object-cover rounded-tl-3xl rounded-br-3xl'/>
+            <Image priority src = {typingImg} alt = 'coding-image' className='object-cover rounded-tl-3xl rounded-br-3xl h-[400px] w-[500px]'/>
            
         </div>
      </div>
