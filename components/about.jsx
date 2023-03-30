@@ -13,7 +13,7 @@ const About = () => {
              </p>
         </div>
         <div className='flex bg-none mt-2 md:w-2/5 max-w-[500px] ml-2 shadow-lg shadow-gray-500 h-[420px]'>
-            <Image priority src = {typingImg} alt = 'coding-image' className='object-cover rounded-tl-3xl rounded-br-3xl h-[400px] w-[500px]'/>
+            <Image priority src = {typingImg} alt = 'coding-image' className='object-cover rounded-tl-3xl rounded-br-3xl h-full w-[500px]'/>
            
         </div>
      </div>
