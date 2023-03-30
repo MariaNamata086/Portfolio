@@ -72,8 +72,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='py-4 flex flex-col'>
-              <ul className='uppercase'>
-                {/* <Link href='/'><li className='py-4 text-sm'>Home</li></Link> */}
+              <ul className='uppercase'>              
                 <li className='py-4 text-sm'><Link href='/'>Home</Link></li>
                 <li className='py-4 text-sm'><Link href='/#about'>About</Link></li>
                 <li className='py-4 text-sm'><Link href='/#skills'>Skills</Link></li>
