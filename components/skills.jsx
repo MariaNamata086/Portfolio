@@ -1,5 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
+import htmlImg from '../public/skills/html.png'
+import cssImg from '../public/skills/css.png'
+import javascriptImg from '../public/skills/javascript.png'
+import reactImg from '../public/skills/react.png'
+import reduxImg from '../public/skills/redux2.png'
+import nextImg from '../public/skills/nextjs.png'
+import tailwindImg from '../public/skills/tailwind.png'
+import gitImg from '../public/skills/github1.png'
 
 const Skills = () => {
   return (
@@ -11,49 +19,49 @@ const Skills = () => {
     <div className='grid md:grid-cols-2 lg:grid-cols-4  items-center w-[80%]  mx-auto p-3 gap-3 '>
         <div className='flex flex-row justify-between items-center p-4 shadow-lg shadow-gray-300 rounded-lg w-3/4 h-[80px]'>
             <div>
-                <Image src='/../public/skills/html.png' alt='HTML logo' width={64} height={64}/>
+                <Image src={htmlImg} alt='HTML logo' width={64} height={64}/>
             </div>
             <span className='text-xl md:text-sm font-bold text-slate-900 tracking-widest'>HTML</span>
         </div>
         <div className='flex flex-row justify-between items-center p-4 shadow-lg shadow-gray-300 rounded-lg w-3/4 h-[80px]'>
             <div>
-                <Image src='/../public/skills/css.png' alt='CSS logo' width={64} height={64}/>
+                <Image src={cssImg} alt='CSS logo' width={64} height={64}/>
             </div>
             <span className='text-xl md:text-sm font-bold text-slate-900 tracking-widest'>CSS</span>
         </div>
         <div className='flex flex-row justify-between items-center p-4 shadow-lg shadow-gray-300 rounded-lg w-3/4 h-[80px]'>
             <div>
-                <Image src='/../public/skills/javascript.png' alt='JS logo' width={64} height={64}/>
+                <Image src={javascriptImg} alt='JS logo' width={64} height={64}/>
             </div>
             <span className='text-xl md:text-sm font-bold text-slate-900 tracking-widest'>JavaScript</span>
         </div>
         <div className='flex flex-row justify-between items-center p-4 shadow-lg shadow-gray-300 rounded-lg w-3/4 h-[80px]'>
             <div>
-                <Image src='/../public/skills/react.png' alt='React logo' width={64} height={64}/>
+                <Image src={reactImg} alt='React logo' width={64} height={64}/>
             </div>
             <span className='text-xl md:text-sm font-bold text-slate-900 tracking-widest'>ReactJS</span>
         </div>
         <div className='flex flex-row justify-between items-center p-4 shadow-lg shadow-gray-300 rounded-lg w-3/4 h-[80px]'>
             <div>
-                <Image src='/../public/skills/redux2.png' alt='redux logo' width={64} height={64}/>
+                <Image src={reduxImg} alt='redux logo' width={64} height={64}/>
             </div>
             <span className='text-xl md:text-sm font-bold text-slate-900 tracking-widest'>Redux</span>
         </div>
         <div className='flex flex-row justify-between items-center p-4 shadow-lg shadow-gray-300 rounded-lg w-3/4 h-[80px]'>
             <div>
-                <Image src='/../public/skills/nextjs.png' alt='nextjs logo' width={64} height={64}/>
+                <Image src={nextImg}alt='nextjs logo' width={64} height={64}/>
             </div>
             <span className='text-xl md:text-sm font-bold text-slate-900 tracking-widest'>NextJS</span>
         </div>
         <div className='flex flex-row justify-between items-center p-4 shadow-lg shadow-gray-300 rounded-lg w-3/4 h-[80px]'>
             <div>
-                <Image src='/../public/skills/tailwind.png' alt='tailwind logo' width={64} height={64}/>
+                <Image src={tailwindImg}alt='tailwind logo' width={64} height={64}/>
             </div>
             <span className='text-xl md:text-sm font-bold text-slate-900 tracking-widest'>TailwindCSS</span>
         </div>
         <div className='flex flex-row justify-between items-center p-4 shadow-lg shadow-gray-300 rounded-lg w-3/4 h-[80px]'>
             <div>
-                <Image src='/../public/skills/github1.png' alt='github logo' width={64} height={64}/>
+                <Image src={gitImg}alt='github logo' width={64} height={64}/>
             </div>
             <span className='text-xl md:text-sm font-bold text-slate-900 tracking-widest'>GitHub</span>
         </div>

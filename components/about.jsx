@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import typingImg from '../public/skills/typing1.jpg'
+import typingImg from '../public/skills/typingHTML.jpg'
 const About = () => {
   return (
     <div id='about' className='w-full md:h-full p-2 items-center justify-items-start  py-16'>
