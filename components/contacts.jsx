@@ -9,7 +9,7 @@ const Contacts = () => {
   return (
     <div id='contacts' className=' w-[85%] mx-auto '>
         <div className='flex flex-col p-3'>
-            <p className='text-3xl md:text-4xl uppercase mb-2 p-3  shadow-lg shadow-gray-300 tracking-widest text-violet-600 font-bold w-1/3 text-center'>Contacts</p>
+            <p className='text-3xl md:text-4xl uppercase mb-2 p-3  shadow-lg shadow-gray-300 tracking-widest text-violet-600 font-bold w-3/4 text-center'>Contacts</p>
             <h2 className='mt-2 font-semibold tracking-wider'> Get In Touch</h2>
         </div>
         <div className='flex flex-col md:flex-row md:justify-around md:gap-x-5 items-center justify-center p-2 shadow-xl shadow-gray-200 h-auto'> 
