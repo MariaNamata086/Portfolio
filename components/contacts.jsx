@@ -25,8 +25,8 @@ const Contacts = () => {
                 <p className='font-semibold text-xl md:text-3xl text-slate-700'>Connect with me:</p>
             </div>
              <div className='flex w-full items-center gap-x-4 mx-auto py-4'>
-             <Link  href= 'https://www.linkedin.com/in/marianamata-juniorfront-enddeveloper/'target='_blank' title='Linked-in' className='flex rounded-full shadow-lg shadow-gray-400 p-4 md:p-6 hover:scale-105 ease-in duration-300'><TfiLinkedin/></Link>
-                  <Link href= 'https://github.com/MariaNamata086' target='_blank' title='Github-in' className='flex rounded-full shadow-lg shadow-gray-400 p-4 md:p-6 hover:scale-105 ease-in duration-300'><BsGithub/></Link>
+             <Link  href= 'https://www.linkedin.com/in/marianamata-front-enddeveloper/'target='_blank' title='Linked-in' className='flex rounded-full shadow-lg shadow-gray-400 p-4 md:p-6 hover:scale-105 ease-in duration-300'><TfiLinkedin/></Link>
+                  <Link href= 'https://github.com/MariaNamata086' target='_blank' title='Github' className='flex rounded-full shadow-lg shadow-gray-400 p-4 md:p-6 hover:scale-105 ease-in duration-300'><BsGithub/></Link>
                   <Link href= 'https://twitter.com/Mariya08883' target='_blank' title='Twitter' className='flex rounded-full shadow-lg shadow-gray-400 p-4 md:p-6 hover:scale-105 ease-in duration-300'><BsTwitter/></Link>
                   <Link href= '#'  title='namatamaria086@gmail.com' className='flex rounded-full shadow-lg shadow-gray-400 p-4 md:p-6 hover:scale-105 ease-in duration-300'><BsFillPersonPlusFill/></Link>
             </div>
@@ -37,7 +37,7 @@ const Contacts = () => {
             <p className='font-bold  tracking-wider md:text-xl text-cyan-800'>Email: <span className='font-normal text-slate-900'>namatamaria086@gmail.com</span></p>
             <p className='font-bold  tracking-wider md:text-xl text-cyan-800'>Mobile: <span className='font-normal text-slate-900'>+256784736487</span></p>
             <p className='font-bold  tracking-wider md:text-xl text-cyan-800'>Twitter: <a href='https://twitter.com/Mariya08883'className='font-normal text-slate-900'>https://twitter.com/Mariya08883</a></p>
-            <p className='font-bold  tracking-wider md:text-xl text-cyan-800'>Linked-in <a className='font-normal text-slate-900' href='https://www.linkedin.com/in/marianamata-juniorfront-enddeveloper/'>https://www.linkedin.com/in/marianamata-juniorfront-enddeveloper/</a></p>
+            <p className='font-bold  tracking-wider md:text-xl text-cyan-800'>Linked-in <a className='font-normal text-slate-900' href='https://www.linkedin.com/in/marianamata-front-enddeveloper/'>https://www.linkedin.com/in/marianamata-juniorfront-enddeveloper/</a></p>
             <p className='font-bold  tracking-wider md:text-xl text-cyan-800'>GitHub: <a className='font-normal text-slate-900'href='https://github.com/MariaNamata086'>https://github.com/MariaNamata086</a></p>
           </div>
 

@@ -82,10 +82,10 @@ const Navbar = () => {
               <div className='flex flex-col pt-5'>
                 <p className='uppercase tracking-widest text-[#5651e5] font-bold'>Let's connect</p>
                 <div className='flex flex-row mt-3 gap-6 md:justify-around w-1/2'>
-                  <span className='flex rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300'><TfiLinkedin/></span>
-                  <span className='flex rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300'><BsGithub/></span>
-                  <span className='flex rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300'><BsTwitter/></span>
-                  <span className='flex rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300'><BsFillPersonPlusFill/></span>
+                  <Link href= 'https://www.linkedin.com/in/marianamata-front-enddeveloper/'target='_blank' title='Linked-in' className='flex rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300'><TfiLinkedin/></Link>
+                  <Link href= 'https://github.com/MariaNamata086' target='_blank' title='Github' className='flex rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300'><BsGithub/></Link>
+                  <Link href= 'https://twitter.com/Mariya08883' target='_blank' title='Twitter' className='flex rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300'><BsTwitter/></Link>
+                  <Link href= '#'  title='namatamaria086@gmail.com' className='flex rounded-full shadow-lg shadow-gray-400 p-3 hover:scale-105 ease-in duration-300'><BsFillPersonPlusFill/></Link>
                 </div>
               </div>
             </div>
