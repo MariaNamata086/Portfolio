@@ -2,7 +2,7 @@ import React from 'react'
 import shopImg from '../public/projects/e-commerce.png'
 import weatherImg from '../public/projects/weatherapp.jpg'
 import landing2 from '../public/projects/landing2.png'
-import landing1 from '../public/projects/landing-page1.png'
+import imdbClone from '../public/projects/IMBb-clone.png'
 import timerImg from '../public/projects/timer.png'
 import todoImg from '../public/projects/todo.jpg'
 import { ProjectItem } from './projectItem'
@@ -33,10 +33,10 @@ const Projects = () => {
              projectUrl='/landing2'
              />
              <ProjectItem
-             projectImg={landing1}
-             projectDesc = 'HTML,TailwindCss'
-             projectTitle='Manage-Go landingpage'
-             projectUrl='/manage-go'
+             projectImg={imdbClone}
+             projectDesc = 'Nextjs,JavaScript,TailwindCss'
+             projectTitle='IMDb-clone project'
+             projectUrl='/imdb-clone'
              />
              <ProjectItem
              projectImg={timerImg}
