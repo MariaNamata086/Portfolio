@@ -10,7 +10,7 @@ const Main = () => {
     <>    
     <div id='main' className=' flex w-full h-screen text-center pt-30  mb-[1200px] sm:mb-[1000px] md:mb-[800px]'>
         <div className=' flex flex-col max-w-[1240px] w-full h-auto mx-auto p-2 gap-6  justify-center items-center'>
-          <div className='flex left-[50%] rounded-full w-[400px] h-[400px] mt-[1650px] sm:mt-[1060px] '>            
+          <div className='flex left-[50%] rounded-full w-[400px] h-[400px] mt-[1830px] sm:mt-[1060px] '>            
             <Image priority src={profileImg} alt='profilePhoto' className='rounded-full'/>
           </div>
             <div>
