@@ -3,7 +3,7 @@ import Image from 'next/image'
 import typingImg from '../public/skills/typingHTML.jpg'
 const About = () => {
   return (
-    <div id='about' className='w-full md:h-full p-2 items-center justify-items-start  py-16'>
+    <div id='about' className='w-full md:h-full p-2 items-center justify-items-start mt-[1200px] sm:mt-[900px] md:mt-[600px] py-16'>
      <div className=' flex flex-col md:flex-row gap-3 max-w-[1240px] m-auto md:gap-x-3 '>
         <div className='flex flex-col gap-3 md:w-3/5 p-2'>
             <span className='uppercase shadow-xl font-bold text-3xl text-center md:text-4xl text-violet-700 p-3'>About</span>
